@@ -126,14 +126,28 @@
 									</div>
 									<div class="layer-1-1">
 										<div class="form">  
-                                           
+                                            <form id="contact" action="https://formspree.io/northerngaymers@gmail.com" method="POST">
+                                                <fieldset>
+                                                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input placeholder="Your email address" type="email" tabindex="2" required>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                                                </fieldset>
+                                                <fieldset>
+                                                    <input type="hidden" name="_next" value="/contactus-confirm.html" />
+                                                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button></fieldset>
+                                            </form>
                                             
-                                            <form method="POST" action="https://formspree.io/northerngaymers@gmail.com">
+                                            <form id="contact" method="POST" action="https://formspree.io/northerngaymers@gmail.com">
+                                                <fieldset><input type="email" name="email" placeholder="Your email"></fieldset>
                                                 <fieldset><input type="email" name="email" placeholder="Your email"></fieldset>
                                                 <fieldset><textarea name="message" placeholder="Test Message"></textarea></fieldset>
                                                 <fieldset>
                                                     <input type="hidden" name="_next" value="/contactus-confirm.html" />
-                                                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button></fieldset>
+                                                    <button type="submit" id="contact-submit" data-submit="...Sending">Submit</button></fieldset>
                                             </form>
                                         </div>
 									</div>
