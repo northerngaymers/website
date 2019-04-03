@@ -23,7 +23,7 @@
 			var doReturn = false;
 		}
 		var defaults = {
-			message: 'This site uses cookies to improve your user experience.', //Message displayed on bar
+			message: '<b>Cookies make life better right?</b> <br>They also make our website better and improve your user experience. Let us know whether you\'re fine with this below.', //Message displayed on bar
 			acceptButton: true, //Set to true to show accept/enable button
 			acceptText: 'That\'s Fine', //Text on accept/enable button
 			acceptFunction: true, //Callback function that triggers when user accepts
@@ -97,7 +97,7 @@
 			var message = options.message.replace('{policy_url}',options.policyURL);
 			
 			if(options.acceptButton){
-				var acceptButton = '<a href="" class="cb-enable">'+options.acceptText+'</a>';
+				var acceptButton = '<br><a href="" class="cb-enable">'+options.acceptText+'</a>';
 			}else{
 				var acceptButton = '';
 			}
@@ -107,9 +107,11 @@
 			}else{
 				var declineButton = '';
 			}
+            
+            
 			//Sets up privacy policy button if required
 			if(options.policyButton){
-				var policyButton = '<a href="'+options.policyURL+'" class="cb-policy">'+options.policyText+'</a>';
+				var policyButton = '<br><a href="'+options.policyURL+'"class="cb-policy">'+options.policyText+'</a>';
 			}else{
 				var policyButton = '';
 			}
