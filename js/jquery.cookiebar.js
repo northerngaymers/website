@@ -27,9 +27,9 @@
 			acceptButton: true, //Set to true to show accept/enable button
 			acceptText: 'That\'s Fine', //Text on accept/enable button
 			acceptFunction: true, //Callback function that triggers when user accepts
-			declineButton: true, //Set to true to show decline/disable button
+			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Disable Cookies', //Text on decline/disable button
-			declineFunction: true, //Callback function that triggers when user declines
+			declineFunction: false, //Callback function that triggers when user declines
 			policyButton: true, //Set to true to show Privacy Policy button
 			policyText: 'Cookies Policy', //Text on Privacy Policy button
 			policyFunction: false, //Callback function that triggers before redirect when user clicks policy button
