@@ -16,7 +16,7 @@
 #cookie-bar {background:#111111; opacity: 0.9; height:auto; min-height:100%; line-height:24px; color:#eeeeee; text-align:center; padding:3px 0; z-index: 10000; padding-top: 15em;}
 #cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
 #cookie-bar.fixed.bottom {bottom:0; top:auto;}
-#cookie-bar p {background:#fff; color: black; border: 1px solid black; border-radius: 5px; display: inline-block; top: 50%; bottom: 50%; min-width: 40%; margin: 0 auto; padding-bottom: 2em; padding-top: 2em; padding-left: 2em; padding-right: 2em;}
+#cookie-bar p {background:#fff; background-image: url("../img/logo/cookiesbanner.png"); color: black; border: 1px; border-radius: 15px; display: inline-block; top: 50%; bottom: 50%; min-width: 40%; margin: 0 auto; padding-bottom: 2em; padding-top: 2em; padding-left: 2em; padding-right: 2em;}
 #cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
 #cookie-bar .cb-enable {background:#b31aff;}
 #cookie-bar .cb-enable:hover {background:#9900e6;}
