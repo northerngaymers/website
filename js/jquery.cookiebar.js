@@ -29,7 +29,7 @@
 			acceptFunction: true, //Callback function that triggers when user accepts
 			declineButton: true, //Set to true to show decline/disable button
 			declineText: 'Disable Cookies', //Text on decline/disable button
-			declineFunction: false, //Callback function that triggers when user declines
+			declineFunction: true, //Callback function that triggers when user declines
 			policyButton: true, //Set to true to show Privacy Policy button
 			policyText: 'Cookies Policy', //Text on Privacy Policy button
 			policyFunction: false, //Callback function that triggers before redirect when user clicks policy button
