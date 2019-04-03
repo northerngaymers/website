@@ -23,9 +23,9 @@
 			var doReturn = false;
 		}
 		var defaults = {
-			message: '<b>Cookies make life better right?</b> <br>They also make our website better and improve your user experience. Let us know whether you\'re fine with this below.', //Message displayed on bar
+			message: '<b>Cookies make life better right?</b> <br>They also make our website better and improve your user experience. <br>Our cookie settings are set to ‘allow all cookies’ - let us know whether you\'re fine with this below.<br>', //Message displayed on bar
 			acceptButton: true, //Set to true to show accept/enable button
-			acceptText: 'That\'s Fine', //Text on accept/enable button
+			acceptText: 'OK, I\'m fine with this.', //Text on accept/enable button
 			acceptFunction: true, //Callback function that triggers when user accepts
 			declineButton: false, //Set to true to show decline/disable button
 			declineText: 'Disable Cookies', //Text on decline/disable button
