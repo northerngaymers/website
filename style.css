@@ -2966,39 +2966,27 @@ border: 3px solid #fff;
 /*  Widget CSS
 /*----------------------------------------*/
 
-@keyframes discord {
-	0% {height:70px; width:250px;}
-	 100% {height:500px;width:350px;}
-}
-@keyframes discord-c {
-	0% {height:500px;width:350px;}
-    100% {height:70px; width:250px;}
-}
+
 .discord {
-	animation-name: discord-c;
-	animation-duration: 2s;
-	animation-play-state: pause;
-    height:70px;
-	width:250px;
-    position:fixed; 
-    left:5px; 
-    top:20%;
-    border: 10px;
-    z-index: 0;
-   
-	
+    z-index: 1;
+    left:0.4%;
+    bottom:1%; 
+    position: fixed;
+    opacity: 0.8;
+    border-radius: 15px;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
 }
 
 .discord:hover {
-	height:500px;
-	width:350px;
-	position:fixed; 
-    left:10px; 
-    top:20%;
-	animation-name: discord;
-	animation-duration: 2s;
-	animation-play-state: pause;
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
+	
 
 /*--------------------------------*/
 /* .End CSS
