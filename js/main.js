@@ -14,13 +14,17 @@ preloader
 ---------------------------- */	
     
     $(window).scroll(function() {
-  $(".discord").css("opacity", 0.8 - $(window).scrollTop() / 600); 
+  $(".discord-widget").css("opacity", 0.8 - $(window).scrollTop() / 600); 
 });
     
-    $(".discord").hover(function() {
+    $(window).scroll(function() {
+  $(".discord-widget-res").css("opacity", 0.8 - $(window).scrollTop() / 600); 
+});
+    
+    $(".discord-widget").hover(function() {
     $(this).animate({opacity: 1.0}, 300);
 }, function() {
-    $(this).animate({opacity: 0.8}, 300);
+    $(this).animate({opacity: 0.9}, 300);
 });
 
 /*---------------------

@@ -2967,13 +2967,21 @@ border: 3px solid #fff;
 /*----------------------------------------*/
 
 
-.discord {
+.discord-widget {
     z-index: 1;
     left:0.4%;
     bottom:1%; 
     position: fixed;
     opacity: 0.8;
-    border-radius: 15px;
+    border-radius: 15px;}
+    
+    
+.discord-widget-res {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    opacity: 0.9;
     
 	
 
