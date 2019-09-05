@@ -18,9 +18,9 @@ preloader
 });
     
     $(".discord").hover(function() {
-    $(this).animate({opacity: 1.0}, 10);
+    $(this).animate({opacity: 1.0}, 300);
 }, function() {
-    $(this).animate({opacity: 0.8}, 10);
+    $(this).animate({opacity: 0.8}, 300);
 });
 
 /*---------------------
