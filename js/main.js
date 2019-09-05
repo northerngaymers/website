@@ -8,6 +8,20 @@ preloader
 		var pre_loader = $('#preloader')
 	pre_loader.fadeOut('slow',function(){$(this).remove();});
 	});	
+    
+/*--------------------------
+ Parallax Scroll & Fade in/out
+---------------------------- */	
+    
+    $(window).scroll(function() {
+  $(".discord").css("opacity", 0.8 - $(window).scrollTop() / 600); 
+});
+    
+    $(".discord").hover(function() {
+    $(this).animate({opacity: 1.0}, 500);
+}, function() {
+    $(this).animate({opacity: 0.8}, 500);
+});
 
 /*---------------------
   venobox
