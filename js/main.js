@@ -26,6 +26,12 @@ preloader
 }, function() {
     $(this).animate({opacity: 0.9}, 300);
 });
+    
+    $(".discord-widget-res").hover(function() {
+    $(this).animate({opacity: 1.0}, 300);
+}, function() {
+    $(this).animate({opacity: 0.9}, 300);
+});
 
 /*---------------------
   venobox
