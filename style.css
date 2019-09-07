@@ -2850,6 +2850,15 @@ input:-webkit-autofill:active {
 	position:relative;
 }
 
+.resizedTextbox {
+    width: 500px;
+    max-width: 100%;
+    height: 20px;
+    margin:0 auto;
+	position:relative;}
+
+
+
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
@@ -2966,6 +2975,40 @@ border: 3px solid #fff;
 /*  Widget CSS
 /*----------------------------------------*/
 
+input {
+ border: 1px solid #ccc;
+    border-radius: 0;
+    height: 44px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    width: 100%;
+	background: transparent;
+}
+
+#ss-submit {
+    display: block;
+  width: 240px;
+  box-sizing: border-box;
+  margin: 0.5rem auto;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background: #99154e;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem #6c0f37;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  
+}
+
+
 
 .discord-widget {
     z-index: 1;
@@ -2982,9 +3025,110 @@ border: 3px solid #fff;
     bottom: 0px;
     width: 100%;
     opacity: 0.9;
-    
-	
 
+}
+
+
+
+form {
+    width: 100%;
+}
+div.radio-box {
+    width: 100px;
+    display: inline-block;
+    margin: 0px;
+}
+.radio-box label {
+    display:block;
+    width: 100px;
+    text-align: center;
+}
+.radio-box input {
+    width: 20px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+/* SLIDER */
+
+input[type="range"] {
+    outline: none;
+  position: relative;
+  margin: 0 90px;
+    max-width: 100%;
+}
+input[type="range"]:before,
+input[type="range"]:after {
+    outline: none;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px; 
+  letter-spacing: 0.5px;
+  top: -2px;
+    bottom: 2px;
+  color: #008463;
+    max-width: 100%;
+}
+input[type="range"]:before{
+    outline: none;
+  content: "\01F620";
+  left: -8.1px;
+    height: 25px;
+    width: 100%;
+    color: white;
+    max-width: 100%;
+    font-size: 22px;
+}
+input[type="range"]:after{
+    outline: none;
+  content: "\01F604";
+  right: -8.1px;
+    height: 22px;
+    color: white;
+    max-width: 100%;
+    font-size: 22px;
+}
+input[type="range"] {
+    outline: none;
+  -webkit-appearance: none !important;
+  display: inline-block;
+  height: 22px;
+  width: 250px;
+  max-width: 100%;
+  margin: 25px auto;
+  background: #08121c;
+  border: 3px solid #08121c;
+  border-radius: 100px;
+  display: block;
+    
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 15px;
+  width: 15px;
+  max-width: 100%;
+  border: 4px solid #6e206f;
+  border-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+input[type="range"]::-webkit-slider-thumb:hover, input[type="range"]::-webkit-slider-thumb:active {
+    outline: none;
+  height: 20px;
+  width: 20px;
+  max-width: 100%;
+    top: 2px;
+    bottom: -2px;
+  border: 6px solid #6e206f;
+  background: #fff;
+  
+}
 
 /*--------------------------------*/
 /* .End CSS
