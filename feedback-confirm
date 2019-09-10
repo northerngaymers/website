@@ -3,10 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Northern Gaymers | Feedback</title>
+		<title>Northern Gaymers | Message Sent</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="referrer" content="origin" />
 
 		<!-- favicon -->		
 		<link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
@@ -29,7 +28,6 @@
         <link rel="stylesheet" href="css/magnific.min.css">
 		<!-- venobox css -->
 		<link rel="stylesheet" href="css/venobox.css">
-        <link rel="stylesheet" href="css/slider.css">
 		<!-- style css -->
 		<link rel="stylesheet" href="style.css">
 		<!-- responsive css -->
@@ -124,50 +122,24 @@
                    <div class="col-md-12 text-center">
 									<!-- layer 1 -->
 									<div class="layer-1-2">
-										<h2>Feedback</h2>
+										<h2>Message Sent.</h2>
 									</div>
-                       
 									<div class="layer-1-1">
-                                                                       
-                                       <p> We like to take feedback from members so we can understand how they feel about the running of the server, and what they would like to see as part of the server in the future. 
-
-                                           This form is completely anonymous.</p>
-                                        
-                                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
-                                                    onload="if(submitted) {window.location='feedback-confirm.html';}"></iframe>
-                                        <form id="contact" method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSdGYL8L0xLJBdDcFgliDqcoCnWV9KqEQnTWw6CuPks5dMl-sg/formResponse" target="hidden_iframe" onsubmit="submitted=true;"> 
-                                       
-                                            
-                                            <p>How do you feel about the moderation of our group?<p>
-                                            <input name="entry.878505724" type="range" id="myRange1" min="1" max="5" value="3" step="1" />
-                                        
-                                        <p>How do you feel about our groups activities?</p>
-                
-                                            <input name="entry.165236575" type="range" id="myRange2" min="1" max="5" value="3" />
-                                        
-                                        <p>How do you feel about the inclusivity of members in our group?</p>
-                                        <input name="entry.425406382" type="range" id="myRange3" min="1" max="5" value="3" step="1" />
-                                        
-                                        
-                                        <div class="resizedTextbox">
-                                            <fieldset><textarea type="text" name="entry.1434058801" placeholder="Based on the answers you have given above please explain in a little detail why you gave these answers." required></textarea></fieldset> 
-                                            <fieldset>
-                                                    <button type="submit" id="feedback-confirm" data-submit="...Sending">Submit</button></fieldset></div>
-                                        </form>
-
-                                            </div>
-                                    
-									
+										<p>We have received your message and would like to thank you for writing to us. You will receive a reply by email as soon as possible.</p>
+									</div>
+									<!-- layer 3 -->
+									<div class="layer-1-3">
+										<a href="index.html" class="ready-btn">Go Home</a>
 									</div>
 								</div>
 							</div>
-						</div>        
-            
-            
+						</div>
+                    </div>
+        
    
         <!-- about-area end -->
 					    
- 
+       
    
         <!-- Start Footer bottom Area -->
         <footer>
@@ -218,7 +190,7 @@
                                     <div class="footer-services-link">
                                     	<ul  class="footer-list">
 											<li><a href="guidelines.html">Community Guidelnes</a></li>
-											<li><a href="#">Cookies Policy</a></li>
+											<li><a href="cookies-policy.html">Cookies Policy</a></li>
 										</ul>
                                     </div>
                                 </div>
@@ -230,7 +202,7 @@
                                 <div class="footer-head">
                                     <h4>Have a question?</h4>
                                     <p>
-                                      If you have any questions or queries, please get in <a href="contact.html">contact</a> with us – we'll be happy to help out.
+                                    If you have any questions or queries, please get in <a href="contact.html">contact</a> with us – we'll be happy to help out.
                                     </p>
                                 </div>
                             </div>
@@ -279,8 +251,6 @@
 		<!-- main js -->
 		<script src="js/main.js"></script>
         <!-- cookiesbar.js -->
-        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="cfcf3537-16cc-4a4a-a4fe-8d12ed7b5875" type="text/javascript" async></script>
-        <script src="js/slider.js"></script>
-        <script src="js/vue.min.js"></script>
+      <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="cfcf3537-16cc-4a4a-a4fe-8d12ed7b5875" type="text/javascript" async></script>
 	</body>
 </html>

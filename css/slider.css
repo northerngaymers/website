@@ -1,0 +1,52 @@
+input[type=range] {
+  -webkit-appearance: none;
+    height: 20px;
+    width: 200px;
+    max-width: 100%;
+    margin: 25px auto;
+    background: #08121c;
+    border: 3px solid #08121c;
+    border-radius: 100px;
+    display: block;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: transparent;
+  background-image: url(../img/widesmile.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+input[type="range"].MyClass-1::-webkit-slider-thumb {
+  background-image: url(../img/pileofpoo.svg);
+}
+
+input[type="range"].MyClass-2::-webkit-slider-thumb {
+  background-image: url(../img/happyface.svg);
+}
+
+input[type="range"].MyClass-3::-webkit-slider-thumb {
+  background-image: url(../img/widesmile.svg);
+}
+
+input[type="range"].MyClass-4::-webkit-slider-thumb {
+  background-image: url(../img/happygrin.svg);
+}
+
+input[type="range"].MyClass-5::-webkit-slider-thumb {
+  background-image: url(../img/loveface.svg);
+}
+
+
+
