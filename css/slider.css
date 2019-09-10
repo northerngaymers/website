@@ -21,7 +21,7 @@ input[type="range"]::-webkit-slider-thumb {
   width: 35px;
   border-radius: 100%;
   background-color: transparent;
-  background-image: url(../img/widesmile.svg);
+  background-image: url(../img/happyface.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -33,15 +33,15 @@ input[type="range"].MyClass-1::-webkit-slider-thumb {
 }
 
 input[type="range"].MyClass-2::-webkit-slider-thumb {
-  background-image: url(../img/happyface.svg);
+  background-image: url(../img/neturalface.svg);
 }
 
 input[type="range"].MyClass-3::-webkit-slider-thumb {
-  background-image: url(../img/widesmile.svg);
+  background-image: url(../img/happyface.svg);
 }
 
 input[type="range"].MyClass-4::-webkit-slider-thumb {
-  background-image: url(../img/happygrin.svg);
+  background-image: url(../img/widesmile.svg);
 }
 
 input[type="range"].MyClass-5::-webkit-slider-thumb {
