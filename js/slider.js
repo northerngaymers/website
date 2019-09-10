@@ -1,7 +1,7 @@
 var slider = document.getElementById("myRange1");
 
 
-  slider.addEventListener('mouseup', function(event) {
+  slider.addEventListener('mouseup', 'touch', function(event) {
     var x = event.target.value
     console.log(x)
     if (x <= 5) {
